@@ -28,7 +28,11 @@ export default function Container(props: ContainerProps) {
       <div
         class={`absolute w-2 h-2 bottom-0 right-0 translate-x-1/2 translate-y-1/2 ${decoratorClass}`}
       />
-      <div class={`py-3 overflow-scroll-auto overflow-x-hidden ${local.innerClass ?? ""}`}>
+      <div
+        class={`py-5 overflow-scroll-auto overflow-x-hidden ${
+          local.innerClass ?? ""
+        }`}
+      >
         {local.children}
       </div>
     </div>

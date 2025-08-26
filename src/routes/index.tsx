@@ -18,8 +18,8 @@ export default function Home() {
         </div>
         <div class="flex flex-1 rounded-sm">
           <Container
-            class="w-full h-full bg-white border-blue-500 "
-            innerClass="pl-3 pr-2 space-y-3"
+            class="w-full h-full bg-white border-blue-500"
+            innerClass="pl-5 pr-3 space-y-3 overflow-scroll"
             decoratorColor="bg-blue-500"
           >
             <Post />
@@ -36,8 +36,7 @@ export default function Home() {
             class="w-full h-full bg-white border-black"
             innerClass="px-3"
             decoratorColor="bg-black"
-          >
-          </Container>
+          ></Container>
         </div>
       </main>
     </>
